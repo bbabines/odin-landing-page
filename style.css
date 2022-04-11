@@ -19,6 +19,17 @@ color: #e5e7eb;
     color: #f9faf8;
 }
 
+.image {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     background-color: #1f2937;
     font: 18px;
