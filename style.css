@@ -1,5 +1,7 @@
 .header {
     background-color: #1f2937;
+    padding: 75px;
+    padding-top: 2%;
 }
 
 .awesome {
@@ -8,7 +10,7 @@
     color: #f9faf8;
 }
 
-.links, .header-body {
+.both, .header-body {
 font: 18px;
 color: #e5e7eb;
 
@@ -17,6 +19,7 @@ color: #e5e7eb;
 .header-logo {
     font: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .image {
@@ -25,6 +28,7 @@ color: #e5e7eb;
     height: 100px;
     background-color: gray;
     color: #e5e7eb;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,5 +39,41 @@ color: #e5e7eb;
     font: 18px;
     color: #f9faf8;
     padding: 10px;
+
     text-align: center;
+}
+
+
+.both {
+display: flex;
+
+}
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+/* Not working */
+.header-body {
+    flex-grow: 0;
+    flex-wrap: wrap;
+}
+
+
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+    padding: 2px;
+    border-style: none;
+}
+
+.awesome {
+    font-weight: bold;
 }
