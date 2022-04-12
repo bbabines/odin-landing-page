@@ -15,7 +15,7 @@ color: #e5e7eb;
 .header-logo {
     font: 24px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: bolder;
 }
 button {
     background-color: #3882f6;
@@ -37,8 +37,8 @@ button {
 
 .image {
     box-sizing: border-box;
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
     background-color: gray;
     color: #e5e7eb;
 
@@ -46,14 +46,11 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 0 auto;
+ 
     align-self: center;
 }
 
-.both {
-display: flex;
 
-}
 
 .middle {
     margin-top: 5%;
@@ -61,17 +58,18 @@ display: flex;
 
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     height: 200px;
-    flex-grow: 0;
     flex-wrap: inherit;
   
+    margin-top: 20px;  
 }
 
-/* Not working */
-.header-body {
-  flex-grow: 0;
+.awesome {
+    height: 100px;
+    width: 300px;
 }
+
 
 
 
