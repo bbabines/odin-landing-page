@@ -1,3 +1,4 @@
+/* Header fonts, sizes, & background color */
 .header {
     background-color: #1f2937;
     padding: 75px;
@@ -33,8 +34,7 @@ body {
     margin-left: 20%;
     margin-right: 20%;
 }
-/* Start of positioning for header */
-
+/* 1st Section */
 .image {
     box-sizing: border-box;
     width: 500px;
@@ -49,7 +49,6 @@ body {
  
 		margin-top: 50px;
 }
-
 .middle {
     margin-top: 5%;
     margin-right: 30px;
@@ -62,32 +61,99 @@ body {
   
     margin-top: 20px;  
 }
-
 .both {
     display: flex;
    
   }
-  
   .link1, .link2, .link3 {
     margin-left: 28px;
   }
-  
   .header-logo {
     margin-right: auto;
   }
-
-
-
-
-.awesome {
+/* 2nd Section */
+.section-two {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: white;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .sub-text {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .sub-text1, .sub-text2, .sub-text3, .sub-text4 {
+    width: 100px;
     height: 100px;
-    width: 300px;
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8
-}
+    margin-top: 5px;
+    display: inline-flex;
+/* This isn't 100% lined up but is ~95% */
+    margin-left: 25px;
+  }
+  .table {
+    empty-cells: show;
+    height: 100px;
+    width: 1150px;
+  }
+  td  {
+  border: 2px solid #3882f6;
+  border-radius: 25px;
+    height: 90px;
+    width: 100px;
+  }
+  .boxes {
+    display: flex;
+    justify-content: center;
+  }
+  .box1, .box2, .box3, .box4 {
+    margin-left: 20px;
+  }
+/* 3rd Section */
+.third-section {
+    background-color: #e5e7eb;
+    /* Change section 1 and 2 height to match */
+    height: 300px;
 
-/* Don't touch - perfect */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+font-size: 36px;
+font-weight: 100;
+font-style: italic;
+color: #1f2937;
+
+align-content: center;
+height: 175px;
+width: 700px;
+
+margin-bottom: 0;
+}
+.author {
+    color: black;
+    justify-content: center;
+    font-weight: 900;
+    margin-left: 45%;
+}
+/* 4th Section */
+
+
+/* Footer: Don't touch - perfect */
 .footer {
     background-color: #1f2937;
     font: 18px;
