@@ -34,6 +34,8 @@ button {
 body {
     margin-left: 20%;
     margin-right: 20%;
+    /* This is for resizing the viewport */
+    position: absolute;
 }
 /* 1st Section */
 .image {
@@ -69,8 +71,8 @@ body {
   .link1, .link2, .link3 {
     margin-left: 28px;
   }
-  .header-logo {
-    margin-right: auto;
+.header-logo {
+    margin-right: 460px;
   }
 /* 2nd Section */
 .section-two {
@@ -120,6 +122,7 @@ body {
   }
   .box1, .box2, .box3, .box4 {
     margin-left: 20px;
+    margin-top: 20px;
   }
 /* 3rd Section */
 .third-section {
@@ -152,25 +155,19 @@ margin-bottom: 0;
     margin-left: 45%;
 }
 /* 4th Section */
-
-/* Done */
 .fourth-section {
 height: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
-
-/* Done?? */
 .blue-box {
   height: 150px;
   width: 800px;
   background-color: #3882f6;
   border-radius: 5px;
-
   display: block;
 }
-
 .action {
   font-weight: bold;
   font-size: large;
@@ -178,7 +175,6 @@ align-items: center;
   margin-top: 50px;
  
 }
-
 .sign-up {
   color: white;
   font-size: smaller;
@@ -186,11 +182,9 @@ align-items: center;
   margin-right: 250px;
 
 }
-
 .action, .sign-up {
 margin-left: 50px;
 }
-
 #four {
   background-color: #3882f6;
   color: white;
@@ -199,7 +193,6 @@ margin-left: 50px;
   width: 100px;
   border-radius: 5px;
 }
-
 /* Footer: Don't touch - perfect */
 .footer {
     background-color: #1f2937;
