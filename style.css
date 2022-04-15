@@ -183,7 +183,7 @@ align-items: center;
   color: white;
   font-size: smaller;
   display: inline-flex;
-  margin-right: 275px;
+  margin-right: 250px;
 
 }
 
@@ -191,12 +191,13 @@ align-items: center;
 margin-left: 50px;
 }
 
-button4 {
+#four {
   background-color: #3882f6;
   color: white;
   font-weight: bold;
-  
-
+  border: 1px solid white;
+  width: 100px;
+  border-radius: 5px;
 }
 
 /* Footer: Don't touch - perfect */
